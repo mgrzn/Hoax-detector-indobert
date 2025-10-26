@@ -1,0 +1,30 @@
+# Cache & Python build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pth
+*.pt
+*.bin
+
+# Dataset 
+Dataset/
+*.csv
+*.tsv
+*.jsonl
+
+# Tokenizer dan model lokal
+tokenizer/
+*.zip
+*.tar.gz
+
+# Environment & config
+.env
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# VSCode
+.vscode/
