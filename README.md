@@ -1,24 +1,10 @@
 # Dataset Deteksi Berita Hoaks Indonesia
 
-## Deskripsi
+## Project Overview
+Proyek ini merupakan aplikasi web berbasis Streamlit yang dikembangkan sebagai bagian dari tugas capstone project di perkuliahan.
+Aplikasi ini menggunakan model Transformers IndoBERT yang telah di-fine-tune dengan dataset berita Indonesia berisi 24k+ data hoaks dan data non-hoaks.
 
-- [TurnBackHoax.id](https://turnbackhoax.id)
-- [CNN Indonesia](https://www.cnnindonesia.com)
-- [Kompas](https://www.kompas.com)
-- [Detik](https://www.detik.com)
+Model tersebut diintegrasikan ke dalam aplikasi interaktif dengan dua mode utama:
 
-Dataset dibagi menjadi tiga folder utama:
-
-- `RAW`: Berisi metadata hasil scraping (judul, tanggal, URL, Isi Berita).
-- `Cleaned`: Berisi data yang telah dibersihkan (tanpa isi artikel penuh).
-- `Summary`: Berisi ekstraksi fitur seperti kategori, label hoaks/non-hoaks, dan analisis sentimen.
-
-## Detail Dataset
-
-- Bahasa: Bahasa Indonesia
-- Format: `.csv` dan `.xlsx`
-- Jumlah entri:
-  - TurnBackHoax.id: 12.648
-  - CNN Indonesia: 4.216
-  - Kompas: 4.216
-  - Detik: 4.216
+ - Mode Chat — pengguna dapat memasukkan teks secara langsung untuk mendapatkan hasil dengan tema seperti chatingan.
+ - Mode Upload File — pengguna dapat mengunggah beberapa file teks sekaligus untuk dilakukan prediksi secara menyeluruh.
