@@ -8,3 +8,6 @@ Model tersebut diintegrasikan ke dalam aplikasi interaktif dengan dua mode utama
 
  - Mode Chat — pengguna dapat memasukkan teks secara langsung untuk mendapatkan hasil dengan tema seperti chatingan.
  - Mode Upload File — pengguna dapat mengunggah beberapa file teks sekaligus untuk dilakukan prediksi secara menyeluruh.
+
+Contoh tampilan project : <br><br>
+![chatbot_hoax](https://github.com/user-attachments/assets/fde6cdae-f92b-447e-afa5-85168eba45da)
