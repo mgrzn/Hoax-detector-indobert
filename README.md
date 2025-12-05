@@ -1,4 +1,4 @@
-# Dataset Deteksi Berita Hoaks Indonesia
+# Indobert Deteksi Berita Hoaks Indonesia
 
 ## Project Overview
 Proyek ini merupakan aplikasi web berbasis Streamlit yang dikembangkan sebagai bagian dari tugas capstone project di perkuliahan.
